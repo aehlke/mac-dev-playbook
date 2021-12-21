@@ -16,7 +16,7 @@ dotfiles_repo: https://github.com/aehlke/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Code/home/dotfiles
 dotfiles_files:
-  #- .zshrc
+  - .zshrc
   #- .gitignore
   #- .inputrc
   - .macos
