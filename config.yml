@@ -17,6 +17,7 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Code/home/dotfiles
 dotfiles_files:
   - .zshrc
+  - .zprofile
   #- .gitignore
   #- .inputrc
   - .macos
@@ -46,16 +47,19 @@ homebrew_installed_packages:
   # Above were from original author
   - mpv-iina
   - antigen
+  - fzf
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - iina/homebrew-mpv-iina
+  - lvillani/ansible-tools
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - vimr
   - miniforge
+  - postgres-unofficial
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
